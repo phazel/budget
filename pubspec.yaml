@@ -1,0 +1,4 @@
+name: budget
+
+dependencies:
+  fvm: ^0.7.1
