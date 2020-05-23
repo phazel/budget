@@ -4,11 +4,23 @@ This is an app for my personal budgeting. Right now it just reads from my person
 
 # Setup
 
-*Following [this guide](https://dart.dev/get-dart). There are some dart version managers available but none seemed mature enough to use.*
-
 ```bash
 brew bundle
+pub global activate fvm
+fvm help # if this doesn't work, check output from previous command
+fvm install 1.17.1
 ```
 
+#### Dart versioning
 - Upgrade: `brew upgrade dart`
 - Switch versions: `brew switch dart 2.1.0`
+
+<details>
+  <summary><em>Guides used</em></summary>
+
+  - [Install dart][dart] *(There are some dart version managers available but none seemed mature enough to use)*
+  - [Install fvm][fvm]
+
+  [dart]: https://dart.dev/get-dart
+  [fvm]: https://pub.dev/packages/fvm
+</details>
