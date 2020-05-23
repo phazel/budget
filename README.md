@@ -6,8 +6,9 @@ This is an app for my personal budgeting. Right now it just reads from my person
 
 ```bash
 brew bundle
-fvm flutter pub get
+pub global activate fvm
 fvm help # if this doesn't work, check output from previous command
+fvm flutter pub get
 fvm install 1.17.1
 ```
 
